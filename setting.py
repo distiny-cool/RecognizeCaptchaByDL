@@ -13,8 +13,8 @@ MAX_CAPTCHA = 5  # 单个验证码字符数
 # 图像大小
 # IMAGE_HEIGHT = 18
 # IMAGE_WIDTH = 60
-IMAGE_HEIGHT = 60
-IMAGE_WIDTH = 160
+IMAGE_HEIGHT = 100
+IMAGE_WIDTH = 140
 
 TRAIN_DATASET_PATH = "dataset" + os.path.sep + "train"
 TEST_DATASET_PATH = "dataset" + os.path.sep + "test"

@@ -15,7 +15,7 @@ def random_captcha():
 
 # 生成字符对应的验证码
 def gen_captcha_text_and_image():
-    image = ImageCaptcha()
+    image = ImageCaptcha(setting.IMAGE_WIDTH, setting.IMAGE_HEIGHT)
     captcha_text = random_captcha()
     captcha_image = Image.open(image.generate(captcha_text))
     return captcha_text, captcha_image

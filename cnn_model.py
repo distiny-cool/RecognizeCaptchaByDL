@@ -3,7 +3,7 @@ import torch.nn as nn
 import setting
 
 class CNN(nn.Module):
-    """3个卷积层+"""
+    """CNN模型"""
     def __init__(self):
         super(CNN, self).__init__()
         self.layer1 = nn.Sequential(
